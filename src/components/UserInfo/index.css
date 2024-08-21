@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.userinfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile {
+  height: 150px;
+}
+@media only screen and (max-width: 767px) {
+  .profile {
+    height: 80px;
+  }
+}
+.name {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 767px) {
+  .name {
+    color: #12022f;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+.des {
+  color: #616e7c;
+  font-size: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .des {
+    color: #616e7c;
+    font-size: 10px;
+  }
+}
